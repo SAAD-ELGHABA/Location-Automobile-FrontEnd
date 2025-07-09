@@ -1,12 +1,26 @@
-# React + Vite
+our template colors : 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✅ Primary Color
+Deep Blue (#0A3D62)
+Represents trust, reliability, professionalism.
 
-Currently, two official plugins are available:
+✅ Accent Color
+Vibrant Orange (#F39C12)
+Highlights call-to-actions: book now, rent now — gives energy & urgency.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Secondary Color
+Cool Gray (#BDC3C7)
+Clean, neutral background to balance contrast.
 
-## Expanding the ESLint configuration
+✅ Background / Light
+White (#FFFFFF)
+Gives an open, fresh, spacious feel.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Dark Contrast
+Charcoal Black (#2C3E50)
+For text, headers, or dark mode sections.
+
+✅ Optional Additional
+Teal / Cyan Accent (#1ABC9C)
+For a fresh, modern twist, use in badges or status indicators.
+

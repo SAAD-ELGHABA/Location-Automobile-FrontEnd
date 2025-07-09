@@ -1,0 +1,24 @@
+{
+  "welcome": "Welcome to your app!",
+  "description": "This is your English version.",
+  "hero": {
+    "title": "Your Journey Starts Here",
+"subtitle": "Discover the freedom to travel on your terms. Rent premium cars at competitive prices with flexible options, exceptional service, and complete peace of mind for every journey."
+,
+    "button1": "Book Now",
+    "button2": "Learn More"
+  },
+    "vehicles": {
+    "title": "Explore Our Vehicles"
+  },
+  "footer": {
+  "description": "Premium rental cars and motorcycles to make your journey safe, comfortable, and memorable.",
+  "linksTitle": "Quick Links",
+  "about": "About Us",
+  "contact": "Contact",
+  "terms": "Terms & Conditions",
+  "followUs": "Follow Us",
+  "rights": "All rights reserved."
+}
+
+}

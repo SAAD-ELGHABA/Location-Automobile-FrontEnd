@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "brand": "Toyota",
+    "model": "Camry",
+    "year": 2022,
+    "pricePerDay": 50,
+    "seats": 5,
+    "transmission": "Automatic",
+    "imageUrl": "/cars/Toyota.jpg",
+    "description": {
+      "en": "Reliable midsize sedan with great fuel economy and comfortable interior.",
+      "fr": "Berline intermédiaire fiable avec une excellente économie de carburant et un intérieur confortable.",
+      "ar": "سيارة سيدان متوسطة الحجم موثوقة باستهلاك وقود ممتاز وراحة داخلية."
+    }
+  },
+  {
+    "id": 2,
+    "brand": "Ford",
+    "model": "Mustang",
+    "year": 2021,
+    "pricePerDay": 90,
+    "seats": 4,
+    "transmission": "Manual",
+    "imageUrl": "/cars/Ford.jpg",
+    "description": {
+      "en": "Sporty coupe with powerful engine, perfect for an exciting drive.",
+      "fr": "Coupé sportif avec un moteur puissant, parfait pour une conduite excitante.",
+      "ar": "كوبيه رياضية بمحرك قوي، مثالية لقيادة ممتعة ومثيرة."
+    }
+  },
+  {
+    "id": 3,
+    "brand": "BMW",
+    "model": "X5",
+    "year": 2023,
+    "pricePerDay": 120,
+    "seats": 7,
+    "transmission": "Automatic",
+    "imageUrl": "/cars/bmw.webp",
+    "description": {
+      "en": "Luxury SUV with spacious seating and advanced technology features.",
+      "fr": "SUV de luxe avec sièges spacieux et fonctionnalités technologiques avancées.",
+      "ar": "سيارة SUV فاخرة بمقاعد واسعة وميزات تقنية متقدمة."
+    }
+  },
+  {
+    "id": 4,
+    "brand": "Honda",
+    "model": "Civic",
+    "year": 2022,
+    "pricePerDay": 45,
+    "seats": 5,
+    "transmission": "Automatic",
+    "imageUrl": "/cars/honda.jpg",
+    "description": {
+      "en": "Compact sedan with excellent reliability and fuel efficiency.",
+      "fr": "Berline compacte avec une excellente fiabilité et une bonne consommation de carburant.",
+      "ar": "سيارة سيدان مدمجة تتميز بموثوقية عالية وكفاءة في استهلاك الوقود."
+    }
+  },
+  {
+    "id": 5,
+    "brand": "Mercedes-Benz",
+    "model": "E-Class",
+    "year": 2023,
+    "pricePerDay": 150,
+    "seats": 5,
+    "transmission": "Automatic",
+    "imageUrl": "/cars/Mercedes-Benz.avif",
+    "description": {
+      "en": "Premium luxury sedan with elegant design and superior comfort.",
+      "fr": "Berline de luxe haut de gamme au design élégant et au confort supérieur.",
+      "ar": "سيارة سيدان فاخرة بتصميم أنيق وراحة فائقة."
+    }
+  }
+]

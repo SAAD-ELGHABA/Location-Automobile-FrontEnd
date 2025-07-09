@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "brand": "Yamaha",
+    "model": "MT-07",
+    "year": 2022,
+    "pricePerDay": 40,
+    "seats": 2,
+    "transmission": "Manual",
+    "imageUrl": "/moto/Yamaha.jpg",
+    "description": {
+      "en": "A lightweight and agile naked bike, perfect for city rides and weekend adventures.",
+      "fr": "Une moto nue légère et agile, parfaite pour la ville et les escapades du week-end.",
+      "ar": "دراجة خفيفة وسهلة المناورة، مثالية للمدينة والرحلات الأسبوعية."
+    }
+  },
+  {
+    "id": 2,
+    "brand": "Kawasaki",
+    "model": "Ninja 400",
+    "year": 2021,
+    "pricePerDay": 45,
+    "seats": 2,
+    "transmission": "Manual",
+    "imageUrl": "/moto/Kawasaki.png",
+    "description": {
+      "en": "Sporty and stylish bike with excellent handling for both beginners and experienced riders.",
+      "fr": "Moto sportive et élégante avec une excellente maniabilité pour débutants et confirmés.",
+      "ar": "دراجة رياضية أنيقة وسهلة التحكم للمبتدئين والمتمرسين."
+    }
+  },
+  {
+    "id": 3,
+    "brand": "Harley-Davidson",
+    "model": "Iron 883",
+    "year": 2023,
+    "pricePerDay": 70,
+    "seats": 2,
+    "transmission": "Manual",
+    "imageUrl": "/moto/Harley-Davidson.jpg",
+    "description": {
+      "en": "Iconic cruiser motorcycle with classic style and a powerful V-Twin engine.",
+      "fr": "Moto cruiser iconique au style classique et moteur V-Twin puissant.",
+      "ar": "دراجة كروزر أسطورية بطراز كلاسيكي ومحرك V-Twin قوي."
+    }
+  }
+]

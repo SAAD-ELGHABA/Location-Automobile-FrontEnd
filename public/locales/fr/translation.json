@@ -1,0 +1,24 @@
+{
+  "welcome": "Bienvenue dans votre application !",
+  "description": "Ceci est votre version française.",
+  "hero": {
+    "title": "Votre voyage commence ici",
+"subtitle": "Découvrez la liberté de voyager selon vos envies. Louez des voitures haut de gamme à prix compétitifs avec flexibilité, service exceptionnel et tranquillité d’esprit à chaque trajet."
+,
+        "button1": "Réservez maintenant",
+    "button2": "En savoir plus"
+  },
+    "vehicles": {
+    "title": "Découvrez Nos Véhicules"
+  },
+  "footer": {
+  "description": "Voitures et motos de location premium pour rendre votre voyage sûr, confortable et mémorable.",
+  "linksTitle": "Liens rapides",
+  "about": "À propos",
+  "contact": "Contact",
+  "terms": "Conditions générales",
+  "followUs": "Suivez-nous",
+  "rights": "Tous droits réservés."
+}
+
+}
