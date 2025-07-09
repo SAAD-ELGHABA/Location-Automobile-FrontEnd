@@ -1,5 +1,5 @@
 import React from "react";
-import LanguageSwitcher from "@components/languageSwitcher";
+import LanguageSwitcher from "@components/LanguageSwitcher";
 import logo from "/assets/logo.png";
 import Logo from "../assets/Logo";
 function NavBar() {
