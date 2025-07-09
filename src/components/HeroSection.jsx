@@ -17,12 +17,23 @@ export default function HeroSection() {
           {t("hero.subtitle")}
         </p>
         <div className="flex gap-4 z-10 justify-center">
-          <button className="cursor-pointer px-6 py-2 border border-white hover:border-slate-200 hover:text-slate-200 rounded-md text-white font-semibold transition">
+          <a className="cursor-pointer px-6 py-2 border border-white hover:border-slate-200 hover:text-slate-200 rounded-md text-white font-semibold transition"
+          href="#vehicule"
+          >
             {t("hero.button1")}
-          </button>
-          <button className="cursor-pointer px-6 py-2 bg-white rounded-md text-black font-semibold transition hover:bg-slate-200">
+          </a>
+          <a
+            href="#info"
+            className="cursor-pointer px-6 py-3 bg-white rounded-md text-black font-semibold transition hover:bg-slate-200"
+            onClick={(e) => {
+              e.preventDefault();
+              document
+                .getElementById("info")
+                .scrollIntoView({ behavior: "smooth" });
+            }}
+          >
             {t("hero.button2")}
-          </button>
+          </a>
         </div>
       </div>
       <div className="absolute bottom-22 grid grid-cols-3 items-center mx-4 w-full max-w-md">

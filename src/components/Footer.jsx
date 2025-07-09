@@ -45,14 +45,14 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Facebook className="w-8 h-8 text-black bg-white rounded-full p-1 cursor-pointer hover:scale-110 transition" />
+              <Facebook className="w-6 h-6 text-white cursor-pointer hover:text-slate-300 hover:scale-110 transition" />
             </a>
             <a
               href={`https://wa.me/${import.meta.env.VITE_WHATSUPP_NUM}`}
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaWhatsapp className="w-8 h-8 text-black bg-white p-1 rounded-full cursor-pointer hover:scale-110 transition" />
+              <FaWhatsapp className="w-6 h-6 text-white cursor-pointer hover:text-slate-300 hover:scale-110 transition" />
             </a>
             <a
               href={`https://instagram.com/${
@@ -61,7 +61,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Instagram className="w-8 h-8 text-black rounded-full bg-white p-1 rounded-fullcursor-pointer hover:scale-110 transition" />
+              <Instagram className="w-6 h-6 text-white cursor-pointer hover:text-slate-300 hover:scale-110 transition" />
             </a>
           </div>
         </div>

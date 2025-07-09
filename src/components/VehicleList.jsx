@@ -4,7 +4,6 @@ import { useTranslation } from "react-i18next";
 import carsData from "../constants/cars.json";
 import motorcyclesData from "../constants/motorcycles.json";
 import { motion } from "framer-motion";
-import { Heart } from "lucide-react";
 
 function VehicleList() {
   const { i18n } = useTranslation();
@@ -17,7 +16,7 @@ function VehicleList() {
   }, [activeTab]);
 
   return (
-    <div className=" py-10 w-[90%] mx-auto">
+    <div className=" py-10 w-[90%] mx-auto" id="vehicule">
       <div className="flex  mb-6 gap-4 justify-between items-center">
         <div className="p-[1px] border text-sm flex rounded">
           <button
@@ -54,7 +53,7 @@ function VehicleList() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.4, delay: item.id * 0.1 }}
             whileHover={{ scale: 1.03 }}
-            className="border border-black rounded p-4 shadow relative"
+            className="shadow-lg  rounded p-4  relative"
           >
             <img
               src={item.imageUrl}
@@ -75,7 +74,6 @@ function VehicleList() {
             <button className="cursor-pointer px-6 py-2 border border-black hover:border-slate-200 hover:text-slate-200 rounded-md text-white bg-black font-semibold transition mt-2">
               {t("hero.button1")}
             </button>
-            <Heart className="absolute top-3 right-3" />
           </motion.div>
         ))}
       </div>

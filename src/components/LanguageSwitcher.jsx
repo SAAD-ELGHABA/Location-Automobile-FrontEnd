@@ -21,7 +21,6 @@ export default function LanguageSwitcher() {
     { code: "ar", label: "العربية" },
   ];
 
-  // ✅ Close on outside click
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
@@ -47,7 +46,7 @@ export default function LanguageSwitcher() {
       </button>
 
       {open && (
-        <div className="origin-top-right absolute right-0 mt-2 w-36 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
+        <div className="origin-top-right absolute right-0 mt-2 w-36 rounded-md shadow-lg bg-white ring-1 ring-gray-300 ring-opacity-5">
           <div className="py-1">
             {languages.map((lang) => (
               <button
