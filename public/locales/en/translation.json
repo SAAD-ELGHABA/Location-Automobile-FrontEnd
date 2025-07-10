@@ -23,6 +23,40 @@
   "info": {
     "title": "Why Choose Our Rental Service?",
     "description": "We provide high-quality, well-maintained vehicles to make your journey comfortable and safe. Whether you’re planning a business trip or an adventure, our cars and motorcycles meet your needs with flexible plans and competitive prices."
+  },
+    "section2": {
+    "competitivePricesTitle": "Competitive Prices",
+    "competitivePricesDesc": "Enjoy attractive rates for your car rental.",
+    "easyExperienceTitle": "Practical Experience",
+    "easyExperienceDesc": "Book online easily and pick up/return your car quickly.",
+    "excellentSupportTitle": "Excellent Support",
+    "excellentSupportDesc": "Our team is at your service to guarantee a stress-free rental experience."
+  },
+    "experience-section": {
+    "rating": "4.9 (87 online reviews)",
+    "title": "A Relaxing and Carefree Experience",
+    "description": "We focus on your comfort and peace of mind. We work so you can travel safely, knowing your car is secure and we are here to help if needed.",
+    "button": "Why Us?"
+  },
+    "ourStatic": {
+    "carsPromo": "Cars on Sale",
+    "partnerBrands": "Partner Brands",
+    "happyClients": "Satisfied Clients",
+    "yearsExperience": "Years of Experience"
+  },
+      "contactUs": {
+    "getInTouchTitle": "Get in touch",
+    "getInTouchDescription1": "Are you ready to embark on your next adventure? Contact our team today!",
+    "getInTouchDescription2": "Whether you have questions about car models, rental terms, or special requests, we're here to help.",
+    "address": "123 Car Rental Plaza, Suite 100, Cityville, CA 90210",
+    "phone": "+1 (800) 555-0123",
+    "emailAddress": "info@rentacardotcom.com",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "email": "Email",
+    "phoneNumber": "Phone number",
+    "message": "Message",
+    "sendMessage": "Send message"
   }
 
 }

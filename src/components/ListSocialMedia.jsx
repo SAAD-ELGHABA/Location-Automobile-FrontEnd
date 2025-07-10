@@ -4,10 +4,11 @@ import {
   X,
   Facebook,
   Instagram,
-  MessageCircle,
+  MessageSquareMore,
 } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 
+// eslint-disable-next-line no-unused-vars
 import { motion, AnimatePresence } from "framer-motion";
 
 function ListSocialMedia() {
@@ -64,19 +65,19 @@ function ListSocialMedia() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Instagram className="w-10 h-10 text-black rounded-full bg-white p-1 rounded-fullcursor-pointer hover:scale-110 transition" />
+                  <Instagram className="w-10 h-10 text-black rounded bg-white p-1 rounded-fullcursor-pointer hover:scale-110 transition" />
                 </a>
               </motion.div>
             )}
           </AnimatePresence>
           <button
             onClick={() => setOpen(!open)}
-            className={` rounded-full shadow-xl  cursor-pointer ${!open && "animate-bounce"}`}
+            className={` rounded-full shadow-3xl shadow-black  cursor-pointer ${!open && "animate-bounce "}`}
           >
             {open ? (
               <X className="w-10 h-10 text-black bg-white rounded-full" />
             ) : (
-              <CircleEllipsis className="w-10 h-10 fill-black text-white" />
+              <MessageSquareMore className="w-10 h-10 fill-black text-white"/>
             )}
           </button>
         </div>

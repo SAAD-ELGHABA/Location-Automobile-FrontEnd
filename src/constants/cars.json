@@ -7,7 +7,7 @@
     "pricePerDay": 50,
     "seats": 5,
     "transmission": "Automatic",
-    "imageUrl": "/cars/Toyota.jpg",
+    "imageUrl": ["/cars/Toyota.jpg","/cars/Toyota.jpg","/cars/Toyota.jpg","/cars/Toyota.jpg","/cars/Toyota.jpg"],
     "description": {
       "en": "Reliable midsize sedan with great fuel economy and comfortable interior.",
       "fr": "Berline intermédiaire fiable avec une excellente économie de carburant et un intérieur confortable.",
@@ -22,7 +22,7 @@
     "pricePerDay": 90,
     "seats": 4,
     "transmission": "Manual",
-    "imageUrl": "/cars/Ford.jpg",
+    "imageUrl": ["/cars/Ford.jpg","/cars/Ford.jpg","/cars/Ford.jpg","/cars/Ford.jpg","/cars/Ford.jpg","/cars/Ford.jpg"],
     "description": {
       "en": "Sporty coupe with powerful engine, perfect for an exciting drive.",
       "fr": "Coupé sportif avec un moteur puissant, parfait pour une conduite excitante.",
@@ -37,7 +37,7 @@
     "pricePerDay": 120,
     "seats": 7,
     "transmission": "Automatic",
-    "imageUrl": "/cars/bmw.webp",
+    "imageUrl": ["/cars/bmw.webp","/cars/bmw.webp","/cars/bmw.webp","/cars/bmw.webp","/cars/bmw.webp","/cars/bmw.webp"],
     "description": {
       "en": "Luxury SUV with spacious seating and advanced technology features.",
       "fr": "SUV de luxe avec sièges spacieux et fonctionnalités technologiques avancées.",
@@ -52,7 +52,7 @@
     "pricePerDay": 45,
     "seats": 5,
     "transmission": "Automatic",
-    "imageUrl": "/cars/honda.jpg",
+    "imageUrl": ["/cars/honda.jpg","/cars/honda.jpg","/cars/honda.jpg","/cars/honda.jpg","/cars/honda.jpg","/cars/honda.jpg"],
     "description": {
       "en": "Compact sedan with excellent reliability and fuel efficiency.",
       "fr": "Berline compacte avec une excellente fiabilité et une bonne consommation de carburant.",
@@ -67,7 +67,7 @@
     "pricePerDay": 150,
     "seats": 5,
     "transmission": "Automatic",
-    "imageUrl": "/cars/Mercedes-Benz.avif",
+    "imageUrl": ["/cars/Mercedes-Benz.avif","/cars/Mercedes-Benz.avif","/cars/Mercedes-Benz.avif","/cars/Mercedes-Benz.avif","/cars/Mercedes-Benz.avif"],
     "description": {
       "en": "Premium luxury sedan with elegant design and superior comfort.",
       "fr": "Berline de luxe haut de gamme au design élégant et au confort supérieur.",

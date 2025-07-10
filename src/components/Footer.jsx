@@ -7,11 +7,13 @@ export default function Footer() {
   const { t } = useTranslation();
 
   return (
-    <footer className="bg-black text-white py-10">
+    <footer className="bg-black text-white py-10 relative">
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
         <div>
           <Logo />
-          <p className="text-sm text-gray-400">{t("footer.description")}</p>
+          <p className="text-sm text-gray-400 mt-3">
+            {t("footer.description")}
+          </p>
         </div>
 
         <div>

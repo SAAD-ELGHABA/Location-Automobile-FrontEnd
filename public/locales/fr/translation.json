@@ -23,6 +23,39 @@
   "info": {
     "title": "Pourquoi choisir notre service de location ?",
     "description": "Nous fournissons des véhicules de haute qualité, bien entretenus, pour rendre votre voyage confortable et sûr. Que vous planifiiez un voyage d'affaires ou une aventure, nos voitures et motos répondent à vos besoins avec des plans flexibles et des prix compétitifs."
+  },
+    "section2": {
+    "competitivePricesTitle": "Prix compétitifs",
+    "competitivePricesDesc": "Profitez de tarifs attractifs pour votre location de voiture.",
+    "easyExperienceTitle": "Expérience pratique",
+    "easyExperienceDesc": "Réservez en ligne facilement et récupérez/retournez votre voiture rapidement.",
+    "excellentSupportTitle": "Excellent support",
+    "excellentSupportDesc": "Notre équipe est à votre disposition pour garantir une expérience de location sans stress."
+  },
+    "experience-section": {
+    "rating": "4.9 (87 expériences en ligne)",
+    "title": "Une expérience décontractée et relaxante",
+    "description": "Nous nous concentrons sur votre confort et votre tranquillité d’esprit. Nous travaillons pour que vous puissiez voyager en toute sérénité, en sachant que votre voiture est sécurisée et que nous sommes là pour vous aider en cas de besoin.",
+    "button": "Pourquoi Nous ?"
+  },
+    "ourStatic": {
+    "carsPromo": "Voitures en promo",
+    "partnerBrands": "Marques partenaires",
+    "happyClients": "Clients satisfaits",
+    "yearsExperience": "Ans d'expérience"
+  },
+    "contactUs": {
+    "getInTouchTitle": "Prenez contact",
+    "getInTouchDescription1": "Êtes-vous prêt(e) à vous lancer dans votre prochaine aventure ? Contactez notre équipe dès aujourd'hui !",
+    "getInTouchDescription2": "Que vous ayez des questions sur les modèles de voitures, les conditions de location ou des demandes spéciales, nous sommes là pour vous aider.",
+    "address": "123 Place de la Location de Voitures, Suite 100, Cityville, CA 90210",
+    "phone": "+1 (800) 555-0123",
+    "emailAddress": "info@rentacardotcom.com",
+    "firstName": "Prénom",
+    "lastName": "Nom de famille",
+    "email": "Email",
+    "phoneNumber": "Numéro de téléphone",
+    "message": "Message",
+    "sendMessage": "Envoyer le message"
   }
-
 }
