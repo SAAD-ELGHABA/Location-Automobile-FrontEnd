@@ -57,5 +57,26 @@
     "phoneNumber": "Numéro de téléphone",
     "message": "Message",
     "sendMessage": "Envoyer le message"
+  },
+        "DatePicker": {
+        "selectRange": "Sélectionnez une plage de dates",
+        "picked": "Vous avez choisi :",
+        "pleaseSelect": "Veuillez sélectionner une date de début et de fin",
+        "reset": "Réinitialiser",
+                "startDate":"La date de début",
+        "endDate":"La date de fin",
+            "afterFormMessage": "Merci d'avoir soumis votre demande de réservation. Notre équipe examinera attentivement les détails de votre commande et l’un de nos agents vous contactera dans les plus brefs délais pour confirmer et finaliser votre location. Nous vous remercions de votre confiance et nous nous engageons à vous offrir le meilleur service."
+
+      },
+        "form": {
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "email": "Email",
+    "phone": "Téléphone",
+    "submit": "Envoyer",
+    "firstNamePlaceholder": "Entrez votre prénom",
+    "lastNamePlaceholder": "Entrez votre nom",
+    "emailPlaceholder": "Entrez votre email",
+    "phonePlaceholder": "Entrez votre numéro"
   }
 }

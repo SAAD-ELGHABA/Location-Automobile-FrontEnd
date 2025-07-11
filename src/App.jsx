@@ -12,7 +12,7 @@ function App() {
         <ListSocialMedia />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/details/:brand/:model/:slag" element={<CarDetails />} />
+          <Route path="/details/:brand/:model/:slug" element={<CarDetails />} />
         </Routes>
         <Footer />
       </div>

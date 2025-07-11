@@ -45,7 +45,7 @@ function VehicleList() {
         </h2>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
         {vehicles.map((item) => (
           <motion.div
             key={item.id}
@@ -53,9 +53,9 @@ function VehicleList() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.4, delay: item.id * 0.1 }}
             whileHover={{ scale: 1.03 }}
-            className="shadow-lg  rounded p-2  relative"
+            className="shadow-lg  rounded px-2 py-4  relative"
           >
-            <Link to={`/details/${item.brand}/${item.model}/hhdokw9i38jm-32==dme`}>
+            <Link to={`/details/${item?.brand}/${item?.model}/${item?.slug}`}>
               <img
                 src={item.imageUrl[0]}
                 alt={`${item.brand} ${item.model}`}
@@ -69,7 +69,7 @@ function VehicleList() {
                   ? item.description
                   : item.description[i18n.language] || item.description["en"]}
               </p>
-              <p className="mt-1 font-bold">${item.pricePerDay} / day</p>
+              <p className="mt-1 font-bold absolute top-2 right-2 bg-black text-white px-2 py-1 rounded">${item.pricePerDay} / day</p>
               <p>Seats: {item.seats}</p>
               <p>Transmission: {item.transmission}</p>
               <button className="cursor-pointer px-6 py-2 border border-black hover:border-slate-200 hover:text-slate-200 rounded-md text-white bg-black font-semibold transition mt-2">

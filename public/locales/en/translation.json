@@ -57,6 +57,26 @@
     "phoneNumber": "Phone number",
     "message": "Message",
     "sendMessage": "Send message"
+  },
+  "DatePicker":{
+        "selectRange": "Select a Date Range",
+        "picked": "You picked:",
+        "pleaseSelect": "Please select a start and end date",
+        "reset": "Reset",
+        "startDate":"Start Date",
+        "endDate":"End Date",
+        "afterFormMessage": "Thank you for submitting your reservation request. Our team will carefully review your booking details and one of our agents will contact you shortly to confirm and finalize your rental. We appreciate your trust and look forward to providing you with the best service."
+  },
+    "form": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "submit": "Submit",
+    "firstNamePlaceholder": "Enter your first name",
+    "lastNamePlaceholder": "Enter your last name",
+    "emailPlaceholder": "Enter your email",
+    "phonePlaceholder": "Enter your phone number"
   }
 
 }
