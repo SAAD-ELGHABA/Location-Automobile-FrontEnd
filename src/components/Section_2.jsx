@@ -10,6 +10,7 @@ function Section_2() {
     <div
       className="relative bg-cover bg-center text-gray-900 py-10"
       style={{ backgroundImage: `url(${bg})` }}
+      id="info"
     >
       <div className=" bg-opacity-80 p-8 md:p-16 max-w-5xl mx-auto flex flex-col md:flex-row gap-12">
         <div className="md:w-1/2 space-y-4">

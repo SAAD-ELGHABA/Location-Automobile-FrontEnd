@@ -78,5 +78,8 @@
     "lastNamePlaceholder": "Entrez votre nom",
     "emailPlaceholder": "Entrez votre email",
     "phonePlaceholder": "Entrez votre numéro"
+  },
+  "BackHistory":{
+    "return":"retour"
   }
 }

@@ -78,6 +78,9 @@
     "lastNamePlaceholder": "ادخل اسمك الأخير",
     "emailPlaceholder": "ادخل بريدك الإلكتروني",
     "phonePlaceholder": "ادخل رقم هاتفك"
+  },
+  "BackHistory":{
+    "return":"عودة"
   }
 
 }

@@ -5,11 +5,11 @@ function ImagesPresentation({ images = [] }) {
 
   return (
     <div className="flex flex-col gap-2 lg:flex-row border-b border-gray-300 lg:mt-14  w-[90%] mx-auto">
-      <div className="h-60 lg:w-[70%] lg:h-[350px] flex items-center justify-center">
+      <div className="h-60 lg:w-[70%] lg:h-[400px] flex items-center justify-center">
         <img
           src={selectedImage}
           alt="Selected"
-          className="object-cover  rounded"
+          className="w-full h-full object-cover rounded"
         />
       </div>
 

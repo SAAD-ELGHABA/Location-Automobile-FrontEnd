@@ -5,6 +5,7 @@ import ImagesPresentation from "@components/DeatailsComponents/ImagesPresentatio
 import DateRangePickerMock from "@components/DeatailsComponents/DateRangePickerMock";
 import InfosVehicule from "@components/DeatailsComponents/InfosVehicule";
 import ReservationForm from "@components/ReservationForm";
+import ComeBackHistory from "@components/ComeBackHistory";
 import { useParams } from "react-router-dom";
 function CarDetails() {
   const [vehicule, setVehicule] = useState({});
@@ -38,6 +39,7 @@ function CarDetails() {
     </div>
   ) : (
     <div className="min-h-screen px-4 py-20">
+      <ComeBackHistory />
       <ImagesPresentation images={vehicule?.imageUrl} />
       <InfosVehicule vehicule={vehicule}/>
       <DateRangePickerMock />

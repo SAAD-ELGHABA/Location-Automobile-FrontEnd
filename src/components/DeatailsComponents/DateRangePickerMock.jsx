@@ -6,10 +6,21 @@ import "../../index.css";
 import { useTranslation } from "react-i18next";
 import ReservationForm from "@components/ReservationForm";
 
+import { enUS, fr, arSA } from "date-fns/locale";
+
 export default function DateRangePickerMock() {
   const [range, setRange] = useState({ from: undefined, to: undefined });
   const [isMobile, setIsMobile] = useState(false);
-  const { t } = useTranslation();
+
+  const { t, i18n } = useTranslation();
+  const currentLang = i18n.language;
+
+  let locale = enUS;
+  if (currentLang === "fr") {
+    locale = fr;
+  } else if (currentLang === "ar") {
+    locale = arSA;
+  }
 
   useEffect(() => {
     const checkMobile = () => {
@@ -35,13 +46,13 @@ export default function DateRangePickerMock() {
         }`}
       >
         <div
-          className={`p-4 rounded w-full lg:max-w-1/3 lg:min-w-1/3 flex flex-col items-center gap-6  self-start ${
+          className={`p-4 rounded w-full lg:max-w-1/3 lg:min-w-1/3 flex flex-col items-center gap-6 self-start ${
             isMobile ? "order-1" : "order-2 sticky top-40"
           }`}
         >
           <div className="text-center text-lg lg:text-xl w-full">
             {range?.from && range?.to ? (
-              <p className="font-medium">{t("DatePicker.picked")} </p>
+              <p className="font-medium">{t("DatePicker.picked")}</p>
             ) : (
               <p className="text-gray-950">{t("DatePicker.pleaseSelect")}</p>
             )}
@@ -50,13 +61,13 @@ export default function DateRangePickerMock() {
             <div>
               <div>{t("DatePicker.startDate")}</div>
               <div className="text-gray-500">
-                {range?.from ? format(range?.from, "PPP") : "dd/mm/yy"}
+                {range?.from ? format(range?.from, "PPP", { locale }) : "dd/mm/yy"}
               </div>
             </div>
             <div className="border-s border-gray-300 ps-2">
               <div>{t("DatePicker.endDate")}</div>
               <div className="text-gray-500">
-                {range?.from ? format(range?.to, "PPP") : "dd/mm/yy"}
+                {range?.to ? format(range?.to, "PPP", { locale }) : "dd/mm/yy"}
               </div>
             </div>
           </div>
@@ -68,18 +79,22 @@ export default function DateRangePickerMock() {
           </button>
         </div>
 
-        <div className={`${isMobile ? "order-2" : "order-1"} flex flex-col`}>
+        <div
+          dir={currentLang === "ar" ? "rtl" : "ltr"}
+          className={`${isMobile ? "order-2" : "order-1"} flex flex-col`}
+        >
           <DayPicker
             mode="range"
             selected={range}
             onSelect={setRange}
             numberOfMonths={isMobile ? 1 : 2}
             defaultMonth={new Date()}
+            locale={locale} 
             className="rounded-lg p-4"
           />
           <ReservationForm />
           <div className="mt-6 p-4 border border-gray-100 rounded bg-gray-50 text-start text-gray-800 text-xs">
-            <p className="text-base md:text-lg">
+            <p className="text-base md:text-sm">
               {t("DatePicker.afterFormMessage")}
             </p>
           </div>

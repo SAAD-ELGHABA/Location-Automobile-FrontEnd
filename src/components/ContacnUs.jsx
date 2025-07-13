@@ -8,7 +8,7 @@ function ContactUs() {
   return (
     <section className="py-12 w-[90%] mx-auto  text-gray-800">
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12">
-        <div >
+        <div>
           <h2 className="text-4xl font-bold mb-6 text-gray-900">
             {t("contactUs.getInTouchTitle")}
           </h2>
@@ -47,7 +47,7 @@ function ContactUs() {
                 <input
                   type="text"
                   id="firstName"
-                  placeholder=""
+                  placeholder={t("contactUs.firstName")}
                   className="w-full p-3 border border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500"
                 />
               </div>
@@ -61,7 +61,7 @@ function ContactUs() {
                 <input
                   type="text"
                   id="lastName"
-                  placeholder=""
+                  placeholder={t("contactUs.lastName")}
                   className="w-full p-3 border border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500"
                 />
               </div>
@@ -77,7 +77,7 @@ function ContactUs() {
               <input
                 type="email"
                 id="email"
-                placeholder=""
+                placeholder={t("contactUs.email")}
                 className="w-full p-3 border border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500"
               />
             </div>
@@ -92,7 +92,7 @@ function ContactUs() {
               <input
                 type="tel"
                 id="phoneNumber"
-                placeholder=""
+                placeholder={t("contactUs.phoneNumber")}
                 className="w-full p-3 border border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500"
               />
             </div>
@@ -106,7 +106,7 @@ function ContactUs() {
               </label>
               <textarea
                 id="message"
-                placeholder=""
+                placeholder={t("contactUs.message")}
                 className="w-full p-3 border border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500"
                 rows="6"
               ></textarea>

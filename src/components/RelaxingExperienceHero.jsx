@@ -24,7 +24,7 @@ export default function RelaxingExperienceHero() {
       >
         <div>
           <p className="text-sm mb-2">{t("experience-section.rating")}</p>
-          <div className="flex space-x-1">
+          <div className="flex">
             {[...Array(5)].map((_, index) => (
               <Star key={index} className="fill-white text-black w-5 h-5" />
             ))}
@@ -36,9 +36,7 @@ export default function RelaxingExperienceHero() {
         <button className="bg-black hover:bg-transparent px-6 py-3 rounded-md font-semibold cursor-pointer border border-white">
           {t("experience-section.button")}
         </button>
-        <div className="h-30 w-30 bg-white rounded-full blur-3xl absolute top-10 right-5">
-
-        </div>
+        <div className="h-30 w-30 bg-white rounded-full blur-3xl absolute top-10 right-5"></div>
       </div>
     </section>
   );

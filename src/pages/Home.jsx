@@ -6,6 +6,7 @@ import Section_2 from "@components/Section_2";
 import CarBrandsSlick from "@components/CarBrandsSlick";
 import RelaxingExperienceHero from "@components/RelaxingExperienceHero";
 import OurStatic from "@components/OurStatic";
+import ClientReviews from "@/components/ClientReviews";
 function Home() {
   return (
     <div>
@@ -26,6 +27,9 @@ function Home() {
       </section>
       <section  >
         <OurStatic />
+      </section>
+      <section>
+        <ClientReviews/>
       </section>
       <section className="bg-white w-full">
         <ContacnUs />

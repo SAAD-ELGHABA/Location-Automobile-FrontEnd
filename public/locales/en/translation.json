@@ -77,6 +77,9 @@
     "lastNamePlaceholder": "Enter your last name",
     "emailPlaceholder": "Enter your email",
     "phonePlaceholder": "Enter your phone number"
+  },
+  "BackHistory":{
+    "return":"return"
   }
 
 }

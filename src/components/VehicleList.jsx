@@ -3,6 +3,8 @@ import { useTranslation } from "react-i18next";
 
 import carsData from "../constants/cars.json";
 import motorcyclesData from "../constants/motorcycles.json";
+import QuiqBooking from "@components/QuiqBooking";
+
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 function VehicleList() {
@@ -10,7 +12,7 @@ function VehicleList() {
   const [activeTab, setActiveTab] = useState("cars");
   const [vehicles, setVehicles] = useState([]);
   const { t } = useTranslation();
-
+  const [vehiculeSelected, setVehiculeSelected] = useState(null);
   useEffect(() => {
     setVehicles(activeTab === "cars" ? carsData : motorcyclesData);
   }, [activeTab]);
@@ -69,16 +71,25 @@ function VehicleList() {
                   ? item.description
                   : item.description[i18n.language] || item.description["en"]}
               </p>
-              <p className="mt-1 font-bold absolute top-2 right-2 bg-black text-white px-2 py-1 rounded">${item.pricePerDay} / day</p>
+              <p className="mt-1 font-bold absolute top-2 right-2 bg-black text-white px-2 py-1 rounded">
+                ${item.pricePerDay} / day
+              </p>
               <p>Seats: {item.seats}</p>
               <p>Transmission: {item.transmission}</p>
-              <button className="cursor-pointer px-6 py-2 border border-black hover:border-slate-200 hover:text-slate-200 rounded-md text-white bg-black font-semibold transition mt-2">
+              <button
+                className="cursor-pointer px-6 py-2 border border-black hover:border-slate-200 hover:text-slate-200 rounded-md text-white bg-black font-semibold transition mt-2"
+                onClick={(e) => {
+                  e.preventDefault();
+                  setVehiculeSelected(item);
+                }}
+              >
                 {t("hero.button1")}
               </button>
             </Link>
           </motion.div>
         ))}
       </div>
+      {vehiculeSelected && <QuiqBooking setVehiculeSelected={setVehiculeSelected} vehiculeSelected={vehiculeSelected}  />}
     </div>
   );
 }

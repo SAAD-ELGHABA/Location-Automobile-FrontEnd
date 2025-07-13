@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "review": {
+      "en": "Excellent service! The team went above and beyond to ensure my rental experience was smooth and hassle-free. I highly recommend this company to anyone looking for quality cars and professional service.",
+      "fr": "Service excellent ! L'équipe a fait tout son possible pour que mon expérience de location soit fluide et sans tracas. Je recommande vivement cette entreprise à toute personne recherchant des voitures de qualité et un service professionnel.",
+      "ar": "خدمة ممتازة! بذل الفريق قصارى جهده لضمان أن تكون تجربة الإيجار الخاصة بي سلسة وخالية من المتاعب. أوصي بشدة بهذه الشركة لأي شخص يبحث عن سيارات عالية الجودة وخدمة احترافية."
+    },
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "name": "Marie Dupont",
+    "review": {
+      "en": "Very friendly staff and the car was spotless. I felt comfortable and safe driving it. Will definitely book again for my next vacation.",
+      "fr": "Personnel très amical et la voiture était impeccable. Je me suis sentie à l'aise et en sécurité en la conduisant. Je réserverai à nouveau pour mes prochaines vacances.",
+      "ar": "طاقم عمل ودود جدًا وكانت السيارة نظيفة للغاية. شعرت بالراحة والأمان أثناء قيادتها. سأقوم بالحجز مرة أخرى في عطلتي القادمة."
+    },
+    "rating": 4
+  },
+  {
+    "id": 3,
+    "name": "Ali Hassan",
+    "review": {
+      "en": "The whole process was so simple. The car was ready on time, paperwork was quick, and returning it was equally easy. Great value for money!",
+      "fr": "Le processus entier était très simple. La voiture était prête à temps, la paperasse rapide, et le retour tout aussi facile. Excellent rapport qualité-prix !",
+      "ar": "كانت العملية بأكملها بسيطة جدًا. كانت السيارة جاهزة في الوقت المحدد، والأوراق سريعة، وإرجاعها كان بنفس السهولة. قيمة ممتازة مقابل المال!"
+    },
+    "rating": 5
+  },
+  {
+    "id": 4,
+    "name": "Fatima Zahra",
+    "review": {
+      "en": "I had some questions before booking and customer support answered all of them quickly. The car was clean and reliable. 5 stars from me.",
+      "fr": "J'avais quelques questions avant de réserver et le service client y a répondu rapidement. La voiture était propre et fiable. 5 étoiles de ma part.",
+      "ar": "كانت لدي بعض الأسئلة قبل الحجز وقد أجاب دعم العملاء على جميعها بسرعة. كانت السيارة نظيفة وموثوقة. خمس نجوم مني."
+    },
+    "rating": 5
+  },
+  {
+    "id": 5,
+    "name": "Omar El Amrani",
+    "review": {
+      "en": "Booking online was easy and straightforward. Pick-up and drop-off were fast. I’ll recommend this service to my family and friends for sure.",
+      "fr": "La réservation en ligne était facile et simple. Le retrait et le retour ont été rapides. Je recommanderai ce service à ma famille et mes amis sans hésiter.",
+      "ar": "كان الحجز عبر الإنترنت سهلاً وبسيطًا. كانت إجراءات الاستلام والتسليم سريعة. سأوصي بهذه الخدمة لعائلتي وأصدقائي بالتأكيد."
+    },
+    "rating": 4
+  }
+]
