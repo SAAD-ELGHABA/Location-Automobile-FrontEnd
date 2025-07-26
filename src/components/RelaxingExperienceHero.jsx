@@ -7,11 +7,10 @@ export default function RelaxingExperienceHero() {
 
   return (
     <section
-      className="relative bg-cover bg-center bg-no-repeat text-white flex items-center overflow-hidden"
+      className="relative bg-fixed bg-cover bg-center bg-no-repeat text-white flex items-center overflow-hidden"
       style={{
         backgroundImage: "url('/cars_logo/man-driving-car-300x150.jpg')",
         minHeight: "100vh",
-        backgroundAttachment: "fixed",
       }}
     >
       <div className="absolute inset-0 bg-black/50"></div>
@@ -19,8 +18,7 @@ export default function RelaxingExperienceHero() {
       <div
         className="relative z-10 max-w-2xl px-6 py-12 ml-auto lg:me-4 space-y-4
              bg-[#000000d2] bg-opacity-20 backdrop-blur-xl lg:rounded-lg
-             mt-40
-             "
+             mt-40"
       >
         <div>
           <p className="text-sm mb-2">{t("experience-section.rating")}</p>

@@ -1,0 +1,83 @@
+{
+  "welcome": "¡Bienvenido a tu aplicación!",
+  "description": "Esta es tu versión en español.",
+  "hero": {
+    "title": "Tu viaje comienza aquí",
+    "subtitle": "Descubre la libertad de viajar a tu manera. Alquila coches premium a precios competitivos con opciones flexibles, un servicio excepcional y total tranquilidad para cada viaje.",
+    "button1": "Reservar ahora",
+    "button2": "Saber más"
+  },
+  "vehicles": {
+    "title": "Explora nuestros vehículos"
+  },
+  "footer": {
+    "description": "Coches y motocicletas de alquiler premium para hacer tu viaje seguro, cómodo e inolvidable.",
+    "linksTitle": "Enlaces rápidos",
+    "about": "Sobre nosotros",
+    "contact": "Contacto",
+    "terms": "Términos y condiciones",
+    "followUs": "Síguenos",
+    "rights": "Todos los derechos reservados."
+  },
+  "info": {
+    "title": "¿Por qué elegir nuestro servicio de alquiler?",
+    "description": "Ofrecemos vehículos de alta calidad y bien mantenidos para que tu viaje sea cómodo y seguro. Ya sea que estés planeando un viaje de negocios o una aventura, nuestros coches y motocicletas se adaptan a tus necesidades con planes flexibles y precios competitivos."
+  },
+  "section2": {
+    "competitivePricesTitle": "Precios competitivos",
+    "competitivePricesDesc": "Disfruta de tarifas atractivas para tu alquiler de coche.",
+    "easyExperienceTitle": "Experiencia práctica",
+    "easyExperienceDesc": "Reserva en línea fácilmente y recoge/devuelve tu coche rápidamente.",
+    "excellentSupportTitle": "Soporte excelente",
+    "excellentSupportDesc": "Nuestro equipo está a tu servicio para garantizar una experiencia de alquiler sin estrés."
+  },
+  "experience-section": {
+    "rating": "4.9 (87 reseñas en línea)",
+    "title": "Una experiencia relajante y sin preocupaciones",
+    "description": "Nos enfocamos en tu comodidad y tranquilidad. Trabajamos para que puedas viajar seguro, sabiendo que tu coche está asegurado y que estamos aquí para ayudarte si es necesario.",
+    "button": "¿Por qué nosotros?"
+  },
+  "ourStatic": {
+    "carsPromo": "Coches en oferta",
+    "partnerBrands": "Marcas asociadas",
+    "happyClients": "Clientes satisfechos",
+    "yearsExperience": "Años de experiencia"
+  },
+  "contactUs": {
+    "getInTouchTitle": "Ponte en contacto",
+    "getInTouchDescription1": "¿Estás listo para comenzar tu próxima aventura? ¡Contacta con nuestro equipo hoy mismo!",
+    "getInTouchDescription2": "Ya sea que tengas preguntas sobre los modelos de coches, las condiciones del alquiler o solicitudes especiales, estamos aquí para ayudarte.",
+    "address": "123 Car Rental Plaza, Suite 100, Ciudadville, CA 90210",
+    "phone": "+1 (800) 555-0123",
+    "emailAddress": "info@rentacardotcom.com",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "email": "Correo electrónico",
+    "phoneNumber": "Número de teléfono",
+    "message": "Mensaje",
+    "sendMessage": "Enviar mensaje"
+  },
+  "DatePicker": {
+    "selectRange": "Selecciona un rango de fechas",
+    "picked": "Has seleccionado:",
+    "pleaseSelect": "Por favor selecciona una fecha de inicio y fin",
+    "reset": "Reiniciar",
+    "startDate": "Fecha de inicio",
+    "endDate": "Fecha de fin",
+    "afterFormMessage": "Gracias por enviar tu solicitud de reserva. Nuestro equipo revisará cuidadosamente los detalles de tu reserva y uno de nuestros agentes se pondrá en contacto contigo en breve para confirmar y finalizar tu alquiler. Agradecemos tu confianza y esperamos brindarte el mejor servicio."
+  },
+  "form": {
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "submit": "Enviar",
+    "firstNamePlaceholder": "Introduce tu nombre",
+    "lastNamePlaceholder": "Introduce tu apellido",
+    "emailPlaceholder": "Introduce tu correo electrónico",
+    "phonePlaceholder": "Introduce tu número de teléfono"
+  },
+  "BackHistory": {
+    "return": "volver"
+  }
+}

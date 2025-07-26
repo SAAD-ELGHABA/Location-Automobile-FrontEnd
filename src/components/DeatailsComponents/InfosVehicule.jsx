@@ -9,7 +9,7 @@ function InfosVehicule({ vehicule }) {
     <div className="my-10 w-[90%] mx-auto">
       <div className="flex items-center space-x-2 pb-2 border-b border-gray-300">
         <Car className="lg:h-14 lg:w-14 h-8 w-8" />
-        <h3 className="mt-2 text-xl lg:text-2xl font-semibold">
+        <h3 className="mt-2 text-xl lg:text-2xl font-bold">
           {vehicule?.brand + " " + vehicule?.model + " " + vehicule?.year}
         </h3>
       </div>
@@ -26,7 +26,7 @@ function InfosVehicule({ vehicule }) {
             vero possimus ratione praesentium minima nisi natus amet sed? Et
             deserunt illo labore aut!
           </p>
-          <div className="grid lg:grid-cols-3 grid-cols-2 gap-6 my-4">
+          <div className="grid md:grid-cols-3 lg:grid-cols-4 grid-cols-2 gap-6 my-4">
             <p className="flex items-center space-x-2">
               <Gauge className="h-8 w-8" />
               <span className="font-medium">250 km/h</span>
@@ -43,7 +43,9 @@ function InfosVehicule({ vehicule }) {
 
             <p className="flex items-center space-x-2">
               <Fuel className="h-8 w-8" />
-              <span className="font-medium">{vehicule?.fuel}</span>
+              <span className="font-medium">
+                {vehicule?.fuel ? vehicule?.fuel : "Diesel"}
+              </span>
             </p>
 
             <p className="flex items-center">
@@ -108,8 +110,19 @@ function InfosVehicule({ vehicule }) {
           </div>
         </div>
         <div className="flex items-center justify-center lg:w-1/3">
-          <h1 className="text-2xl lg:text-4xl font-black underline">
-            {vehicule?.pricePerDay} MAD <span className="`text-gray-300 font-medium  text-xl mt-4">/ day</span>
+          <h1 className="text-2xl lg:text-4xl font-black relative inline-block ">
+            <span className="relative z-10 text-white">
+              $ {vehicule?.pricePerDay}
+              {" /day"}
+            </span>
+            <span
+              className="absolute -inset-5 z-0"
+              style={{
+                backgroundColor: "black",
+                clipPath: "polygon(0 20%, 100% 10%, 100% 80%, 0% 100%)",
+                transform: "rotate(-1deg)",
+              }}
+            ></span>
           </h1>
         </div>
       </div>

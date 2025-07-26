@@ -65,7 +65,7 @@ function ListSocialMedia() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Instagram className="w-10 h-10 text-black rounded bg-white p-1 rounded-fullcursor-pointer hover:scale-110 transition" />
+                  <Instagram className="w-10 h-10 text-black bg-white p-1 rounded-xl cursor-pointer hover:scale-110 transition" />
                 </a>
               </motion.div>
             )}

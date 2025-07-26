@@ -18,7 +18,8 @@ export default function LanguageSwitcher() {
   const languages = [
     { code: "en", label: "English" },
     { code: "fr", label: "Français" },
-    { code: "ar", label: "العربية" },
+    { code: "es", label: "Español" }, 
+    { code: "ar", label: "العربية" }
   ];
 
   useEffect(() => {
